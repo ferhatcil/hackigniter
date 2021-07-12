@@ -68,7 +68,13 @@ Hackigniter php codeigniter üzerinde kodlanmış zafiyetli bir web uygulamasıd
 
 ### Önizleme
 <p align="center">
-<img src=""/>
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture1.PNG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture2.PNG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture3.PNG"/>
 </p>
 
 
