@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">  
-<a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" width="408" height="480" src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/hackigniter-logo-png-transparent.png"></img></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" width="204" height="240" src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/hackigniter-logo-png-transparent.png"></img></a>
 </p>
 
 <p align="center">
