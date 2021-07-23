@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-hackigniter-red.svg"></a>
-<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-1.0pilot-red.svg?style=flat-square"></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-0.0pilot-red.svg?style=flat-square"></a>
 </p>
 
 <p align="center">  
@@ -82,7 +82,7 @@ Hackigniter php codeigniter üzerinde kodlanmış zafiyetli bir web uygulamasıd
 [Youtube]()
 
 ### Version
-#### Current version is 1.0
+#### Current version is v0.0-pilot.1
 * pilot
 
 ### Connect :
