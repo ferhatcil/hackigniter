@@ -1,9 +1,9 @@
 <p align="center">
-<img title="hackigniter" src="https://img.shields.io/badge/hackigniter-%20-SCRIPT?colorA=red&colorB=black&colorC=white&style=for-the-badge"></a>
+<img title="HackIgniter" src="https://img.shields.io/badge/HackIgniter-%20-SCRIPT?colorA=red&colorB=black&colorC=white&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-hackigniter-red.svg"></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-HackIgniter-red.svg"></a>
 <a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-0.0pilot-red.svg?style=flat-square"></a>
 </p>
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/ferhatcil"><img title="Language" src="https://img.shields.io/badge/Made%20with-PHP(Codeigniter)-yellowgreen"></a>
+<a href="https://github.com/ferhatcil"><img title="Language" src="https://img.shields.io/badge/Made%20with-PHP(CodeIgniter)-yellowgreen"></a>
 <a href="https://github.com/ferhatcil"><img title="Followers" src="https://img.shields.io/github/followers/ferhatcil?color=yellowgreen&style=flat-square"></a>
 <a href="https://github.com/ferhatcil"><img title="Stars" src="https://img.shields.io/github/stars/ferhatcil/hackigniter?color=yellowgreen&style=flat-square"></a>
 <a href="https://github.com/ferhatcil"><img title="Forks" src="https://img.shields.io/github/forks/ferhatcil/hackigniter?color=yellowgreen&style=flat-square"></a>
@@ -25,11 +25,15 @@
 <a href="https://github.com/ferhatcil"><img title="Licence" src="https://img.shields.io/badge/License-MIT-yellowgreen.svg"></a>
 </p>
 
-### hackigniter Hakkında :
+### CodeIgniter Nedir?
 
-Hackigniter php codeigniter üzerinde kodlanmış zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
+CodeIgniter, PHP ile dinamik uygulamalar geliştirmek için geliştirilmiş bir web uygulama iskeletidir. "Geliştiricilerin çok daha hızlı proje geliştirmeleri hedef edilmiştir. En sık ihtiyaç duyacağınız kütüphaneleri kullanarak zaman kazanabilirsiniz." İlk sürüm 28 Şubat 2006 tarihinde yayınlandı. [Vikipedi](https://tr.wikipedia.org/wiki/CodeIgniter)
 
-### Test edildi :
+### HackIgniter'ın kısa özeti
+
+HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik açıklıkları barındıran zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
+
+### Test edildi
 
 * Windows 10
 * Windows Server 2012
@@ -66,7 +70,7 @@ Hackigniter php codeigniter üzerinde kodlanmış zafiyetli bir web uygulamasıd
 ```
 - İndirdiğiniz dizin içerisinde bulunan "hackigniter.sql" adlı dosyayı veritabanına yüklemek yeterli olacaktır.
 
-### Önizleme
+### Ekran Görüntüleri
 <p align="center">
 <img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture1.PNG"/>
 </p>
@@ -76,10 +80,6 @@ Hackigniter php codeigniter üzerinde kodlanmış zafiyetli bir web uygulamasıd
 <p align="center">
 <img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture3.PNG"/>
 </p>
-
-
-### Video
-[Youtube]()
 
 ### Version
 #### Current version is v0.0-pilot.1
