@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-HackIgniter-red.svg"></a>
-<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-0.0pilot-red.svg?style=flat-square"></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-v0.0.pilot.2-red.svg?style=flat-square"></a>
 </p>
 
 <p align="center">  
@@ -82,8 +82,7 @@ HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik 
 </p>
 
 ### Version
-#### Current version is v0.0-pilot.1
-* pilot
+#### Current version is v0.0-pilot.2
 
 ### Connect :
 
