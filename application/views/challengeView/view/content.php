@@ -202,7 +202,7 @@
                     <div class="col text-truncate">
                         <a href="<?php echo base_url("Vulnerabilities/xss") ?>" class="text-body d-block">XSS (Cross
                             Site Scripting)</a>
-                        <small class="d-block text-muted text-truncate mt-n1">798402077390 dizini içerisindeki
+                        <small class="d-block text-muted text-truncate mt-n1">flags/798402077390 dizini içerisindeki
                             bayrağa
                             ihtiyacımız var.</small>
                         <small class="d-block text-muted text-truncate mt-n1">Giriş Bilgileri :
@@ -235,7 +235,7 @@
                     <div class="col text-truncate">
                         <a href="<?php echo base_url("Vulnerabilities/osCommand") ?>" class="text-body d-block">OS
                             Command (Command Injection)</a>
-                        <small class="d-block text-muted text-truncate mt-n1">426094998948 dizini içerisindeki
+                        <small class="d-block text-muted text-truncate mt-n1">flags/426094998948 dizini içerisindeki
                             bayrağa
                             ihtiyacımız var.</small>
                     </div>
