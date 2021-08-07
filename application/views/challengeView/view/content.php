@@ -67,7 +67,6 @@
                         ?>
                     </div>
                     <div class="col-auto">
-
                         <span class="avatar"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
                                                   viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                                                   stroke-linecap="round" stroke-linejoin="round"><path stroke="none"
@@ -77,20 +76,11 @@
                                         d="M12 20a4 4 0 0 0 4 -4v-8a4 4 0 1 0 -8 0v8a4 4 0 0 0 4 4z"/></svg></span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/errorBasedSqli")?>" class="text-body d-block">Error Based SQL Injection (extractvalue)</a>
+                        <a href="<?php echo base_url("Vulnerabilities/errorBasedSqli") ?>" class="text-body d-block">Error
+                            Based SQL Injection (extractvalue)</a>
                         <small class="d-block text-muted text-truncate mt-n1">Tablodan elde edeceğin bayrağı hemen
                             bize
                             gönder.</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -115,20 +105,11 @@
                         </span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/timeBasedSqli")?>" class="text-body d-block">Time Based SQL Injection</a>
+                        <a href="<?php echo base_url("Vulnerabilities/timeBasedSqli") ?>" class="text-body d-block">Time
+                            Based SQL Injection</a>
                         <small class="d-block text-muted text-truncate mt-n1">Tablodan elde edeceğin bayrağı hemen
                             bize
                             gönder.</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -153,22 +134,13 @@
                                         d="M8 8a4 4 0 1 1 8 0c0 1.098 -.564 2.025 -1.159 2.815l-6.841 9.185h8"/></svg></span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/idor")?>" class="text-body d-block">IDOR (Insecure Direct Object References)</a>
+                        <a href="<?php echo base_url("Vulnerabilities/idor") ?>" class="text-body d-block">IDOR
+                            (Insecure Direct Object References)</a>
                         <small class="d-block text-muted text-truncate mt-n1">
                             ferhatcil hesabının 500₺'ye ihtiyacı var.
                         </small>
                         <small class="d-block text-muted text-truncate mt-n1">Giriş Bilgileri :
                             32992363894:pass</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -193,7 +165,8 @@
                                         d="M12 12a4 4 0 1 0 -4 -4"/><path d="M8 16a4 4 0 1 0 4 -4"/></svg></span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/csrf")?>" class="text-body d-block">CSRF (Cross-Site Request Forgery)</a>
+                        <a href="<?php echo base_url("Vulnerabilities/csrf") ?>" class="text-body d-block">CSRF
+                            (Cross-Site Request Forgery)</a>
                         <small class="d-block text-muted text-truncate mt-n1">ferhatcil hesabının 500₺'ye ihtiyacı
                             var.
                         </small>
@@ -203,16 +176,6 @@
                             56044987104:richierich</small>
                         <small class="d-block text-muted text-truncate mt-n1">Bu zafiyet ilerleyen zamanlarda daha
                             uygulanabilir hale getirilecektir.</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -237,7 +200,8 @@
                         </span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/xss")?>" class="text-body d-block">XSS (Cross Site Scripting)</a>
+                        <a href="<?php echo base_url("Vulnerabilities/xss") ?>" class="text-body d-block">XSS (Cross
+                            Site Scripting)</a>
                         <small class="d-block text-muted text-truncate mt-n1">798402077390 dizini içerisindeki
                             bayrağa
                             ihtiyacımız var.</small>
@@ -245,16 +209,6 @@
                             ferhatcil:1234 (admin)</small>
                         <small class="d-block text-muted text-truncate mt-n1">Giriş Bilgileri :
                             burakbozaci:1234 (user)</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -279,20 +233,11 @@
                                         d="M8 20h4a4 4 0 1 0 0 -8h-4v-8h8"/></svg></span>
                     </div>
                     <div class="col text-truncate">
-                        <a href="<?php echo base_url("Vulnerabilities/osCommand")?>" class="text-body d-block">OS Command (Command Injection)</a>
+                        <a href="<?php echo base_url("Vulnerabilities/osCommand") ?>" class="text-body d-block">OS
+                            Command (Command Injection)</a>
                         <small class="d-block text-muted text-truncate mt-n1">426094998948 dizini içerisindeki
                             bayrağa
                             ihtiyacımız var.</small>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -323,16 +268,7 @@
                         <small class="d-block text-muted text-truncate mt-n1">Giriş Bilgileri :
                             nazimhikmet:piraye</small>
                     </div>
-                    <div class="col-auto">
-                        <a href="<?php echo base_url("Vulnerabilities/missingFunction")?>" class="list-group-item-actions">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24"
-                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                            </svg>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>

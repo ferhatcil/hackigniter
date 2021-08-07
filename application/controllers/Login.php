@@ -53,7 +53,7 @@ class Login extends CI_Controller
 
                 if ($user) {
                     $this->session->set_userdata("UserSession", $user);
-                    redirect("Vulnerabilities/");
+                    redirect(base_url("Vulnerabilities"));
                 } else {
                     redirect("Login");
                 }

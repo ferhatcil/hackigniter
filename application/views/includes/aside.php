@@ -15,8 +15,8 @@
                    aria-label="Open user menu">
                     <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
                     <div class="d-none d-xl-block ps-2">
-                        <div>Paweł Kuna</div>
-                        <div class="mt-1 small text-muted">UI Designer</div>
+                        <div>Admin</div>
+                        <div class="mt-1 small text-muted">Hacker</div>
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#Vulnerabilities" data-bs-toggle="dropdown" role="button"
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
                        aria-expanded="false">
                   <span class="nav-link-icon d-md-none d-lg-inline-block">
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
