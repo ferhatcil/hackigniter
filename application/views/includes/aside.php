@@ -68,7 +68,7 @@
                     Zafiyetler
                   </span>
                     </a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu show">
                         <a class="dropdown-item" href="<?php echo base_url("Vulnerabilities/errorBasedSqli") ?>">
                             Error Based SQL Injection
                         </a>

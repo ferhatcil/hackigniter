@@ -53,6 +53,13 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
+    if (file_exists("application/config/database.php.dist")){
+        echo "<h3>HackIgniter</h3>";
+        echo "<li>Yapılandırma dosyası bulunamadı. application/config/database.php.dist dosyasını application/config/database.php olarak değiştirin ve dosya içerisindeki hostname, database ve password alanlarını kendinize göre ayarlayın.</li>";
+        echo '<li>database.php.dist dosyasını düzenledikten sonra, Veritabanı kurlumunu otamatik yapmak istiyorsanız. Setup sayfasına göz atabilirsiniz.</li>';
+        die();
+    }
+
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 
 /*

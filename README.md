@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-HackIgniter-red.svg"></a>
-<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-v0.0.pilot.2-red.svg?style=flat-square"></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-v0.0.pilot.3-red.svg?style=flat-square"></a>
 </p>
 
 <p align="center">  
@@ -25,33 +25,63 @@
 <a href="https://github.com/ferhatcil"><img title="Licence" src="https://img.shields.io/badge/License-MIT-yellowgreen.svg"></a>
 </p>
 
-### CodeIgniter Nedir?
+## CodeIgniter Nedir?
 
 CodeIgniter, PHP ile dinamik uygulamalar geliştirmek için geliştirilmiş bir web uygulama iskeletidir. "Geliştiricilerin çok daha hızlı proje geliştirmeleri hedef edilmiştir. En sık ihtiyaç duyacağınız kütüphaneleri kullanarak zaman kazanabilirsiniz." İlk sürüm 28 Şubat 2006 tarihinde yayınlandı. [Vikipedi](https://tr.wikipedia.org/wiki/CodeIgniter)
 
-### HackIgniter'ın kısa özeti
+## HackIgniter'ın kısa özeti
 
 HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik açıklıkları barındıran zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
 
-### Test edildi
+## Test edildi
 
 * Windows 10
 * Windows Server 2012
 
-### Kurulum [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) [![alt tag](https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/windows_10-32.png)](https://en.wikipedia.org/wiki/Microsoft_Windows)
+## İndir
+HackIgniter'ın son sürümünü aşağıdaki komuttan faydalanarak klonlayabilirsiniz.
+```
+git clone https://github.com/ferhatcil/hackigniter.git
+```
+veya [zip formatında indirin](https://github.com/ferhatcil/hackigniter/archive/refs/heads/main.zip).
 
-- [Kaynak kodları indirmek için tıklayınız](https://github.com/ferhatcil/hackigniter/archive/refs/heads/main.zip)
-- [XAMPP'i Linux veya windows üzerine indirmek için tıklayınız](https://www.apachefriends.org/tr/download.html "to install xampp") 
-- [XAMPP'in nasıl kurulduğunu öğrenmek için tıklayınız](https://www.wikihow.com/Install-XAMPP-for-Windows "How to Install XAMPP") 
-- İndirdiginiz dosyaları xampp üzerinden "C:\xampp\htdocs", wamp üzerinden "C:\wamp\www", linux üzerinden ise "/var/www/html" dizini içine yüklemeniz yeterli olacaktır.
-- Veritabanı baglantısını gerçekleştirmek için "/application/config/database.php" adlı dosya içindeki bilgileri kendi sql bilgileriniz ile değiştirmeniz yeterli olacaktır.
+## Kurulum
+Lütfen **application/config/database.php.dist** dosyanızın varlığından emin olun. Dosyanızın varlığını doğruladıktan sonra veritabanı kullanıcı adı ve şifrenizi yazmanız ve **application/config/database.php** olarak yeniden adlandırmayı unutmayın. 
+
+Kullanıcı bilgilerinizi **$db['default']** kısmına yazmanız yeterli olacaktır. **$db['exploit']** kısmını lütfen düzenlemeyin.
+
+### Windows ve XAMPP
+Eğer hali hazırda web ve veritabanı sunucunuz yoksa. HackIgniter'ı kurup çalıştırabilmeniz için ilk önce XAMPP'i indirip kurmalısınız.
+
+XAMPP bir web sunucusu yazılımıdır. Xampp server ile bilgisayara PHP, MariaDB, Perl ve Apache yanında FileZilla ve MercuryMail gibi sistemler kurularak hazır bir web sunucusu oluşturulabilmektedir. XAMPP serverda phpMyAdmin de kurulu olarak gelmektedir. [Vikipedi](https://tr.wikipedia.org/wiki/XAMPP)
+
+XAMPP şu adresten indirilebilir: 
+
+```
+https://www.apachefriends.org/en/xampp.html
+```
+
+- [XAMPP'in nasıl kurulduğunu öğrenmek için tıklayınız](https://www.wikihow.com/Install-XAMPP-for-Windows "How to Install XAMPP")
+
+Kısaca; HackIgniter'ın son sürümünü indirin, indirdiginiz dosyaları xampp üzerinden **"C:\xampp\htdocs"**, wamp üzerinden ise **"C:\wamp\www"** dizini içine taşıyın ve ardından kuruluma başlamak için projenizi tarayıcınızda ziyaret edin.
+
+```
+http://localhost/<proje-adi>
+```
+
+### Veritabanı Kurulumu
+Veritabanını kurmak için; **application/config/database.php** dosyanıza veritabanı bilgilerinizi girdikten sonra **http://localhost/<proje-adi>/Setup** veya **http://localhost/Setup** sayfasını ziyaret edin, ardından **"Yükle"** butonuna tıklayın. Bu sayfa, gerekli olan veritabanını ve tablolarını sizin için otamatik bir şekilde oluşturacaktır.
+
+HackIgniter üzerinde oturum açamadığınız durumda */application/config/database.php* dosyasının içerisinde yer alan veritabanı kullanıcı bilgilerinizin doğru olduğundan emin olun.
+
+Değişkenler aşağıdaki şekilde ayarlanmıştır:
 ```database.php
     $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'hackigniter',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -68,23 +98,42 @@ HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik 
 	'save_queries' => TRUE
 );
 ```
-- İndirdiğiniz dizin içerisinde bulunan "hackigniter.sql" adlı dosyayı veritabanına yüklemek yeterli olacaktır.
 
-### Ekran Görüntüleri
+### Varsayılan Kullanıcı Bilgileri
+
+- Varsayılan kullanıcı adı ve şifre `admin:susamam`
+- Giriş sayfası `http://localhost/<proje-adi>/Login` veya `http://localhost/Login`
+
+## Ekran Görüntüleri
 <p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture1.PNG"/>
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c1.PNG"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture2.PNG"/>
+    HackIgniter'da oturum açtıktan sonra sizi karşılayacak ana sayfa
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/Capture3.PNG"/>
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c2.PNG"/>
+</p>
+<p align="center">
+    Stored tabanlı XSS Zafiyet'in bulunduğu sayfa
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c3.PNG"/>
+</p>
+<p align="center">
+    Zafiyetleri istismar ettikten sonra elde ettiğiniz bayrakları gönderebileceğiniz "Challange Accepted" sayfası.
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c4.PNG"/>
+</p>
+<p align="center">
+    HackIgniter uygulamasının veritabanı kurulumunu gerçekleştirmek için kullanacağınız "Setup" sayfası
 </p>
 
-### Version
-- Current version is v0.0-pilot.2
+## Version
+- Current version is v0.0-pilot.3
 
-### Connect :
+## Connect :
 
 <p align="center">
 <a href="https://github.com/ferhatcil"><img title="Github" src="https://img.shields.io/badge/Ferhat%20%C3%87il-%20-red?style=for-the-badge&logo=github"></a>
@@ -93,7 +142,7 @@ HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik 
 <a href="https://packetstormsecurity.com/user/ferhatcil/"><img title="Packet storm" src="https://img.shields.io/badge/Packet%20storm-Ferhat%20%C3%87il-red?style=for-the-badge"></a>
 </p>
 
-### MIT License
+## MIT License
 ```
 MIT License
 
