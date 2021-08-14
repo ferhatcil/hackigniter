@@ -9,6 +9,7 @@ class Setup extends CI_Controller
         parent::__construct();
         $this->viewFolder = "setupView";
         $this->load->model("SetupModel");
+        $this->load->helper('file');
 
     }
 
@@ -39,6 +40,10 @@ class Setup extends CI_Controller
                 $this->SetupModel->hi_xss_0();
                 $this->SetupModel->hi_xss_1();
                 $this->SetupModel->hi_xss_2();
+
+                $data = array("name" => "hackigniter");
+                file_put_contents(FCPATH . "\db.json", json_encode($data));
+
                 redirect(base_url("Login"));
             } catch (Exception $e) {
                 redirect(base_url("Setup"));
