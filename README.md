@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ferhatcil/hackigniter"><img title="hackigniter" src="https://img.shields.io/badge/Tool-HackIgniter-red.svg"></a>
-<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-v0.0.pilot.3-red.svg?style=flat-square"></a>
+<a href="https://github.com/ferhatcil/hackigniter"><img title="Version" src="https://img.shields.io/badge/Version-v0.0.pilot.4-red.svg?style=flat-square"></a>
 </p>
 
 <p align="center">  
@@ -123,7 +123,7 @@ HackIgniter uygulamasının veritabanı kurulumunu gerçekleştirmek için kulla
 </p>
 
 ## Version
-- Current version is v0.0-pilot.3
+- Current version is v0.0-pilot.4
 
 ## Connect :
 
