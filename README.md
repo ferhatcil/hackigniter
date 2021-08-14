@@ -106,28 +106,20 @@ Değişkenler aşağıdaki şekilde ayarlanmıştır:
 
 ## Ekran Görüntüleri
 <p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c1.PNG"/>
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c1.png"/>
+HackIgniter'da oturum açtıktan sonra sizi karşılayacak ana sayfa
 </p>
 <p align="center">
-    HackIgniter'da oturum açtıktan sonra sizi karşılayacak ana sayfa
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c2.png"/>
+Stored tabanlı XSS Zafiyet'in bulunduğu sayfa
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c2.PNG"/>
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c3.png"/>
+Zafiyetleri istismar ettikten sonra elde ettiğiniz bayrakları gönderebileceğiniz "Challange Accepted" sayfası.
 </p>
 <p align="center">
-    Stored tabanlı XSS Zafiyet'in bulunduğu sayfa
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c3.PNG"/>
-</p>
-<p align="center">
-    Zafiyetleri istismar ettikten sonra elde ettiğiniz bayrakları gönderebileceğiniz "Challange Accepted" sayfası.
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c4.PNG"/>
-</p>
-<p align="center">
-    HackIgniter uygulamasının veritabanı kurulumunu gerçekleştirmek için kullanacağınız "Setup" sayfası
+<img src="https://raw.githubusercontent.com/ferhatcil/hackigniter/main/images/c4.png"/>
+HackIgniter uygulamasının veritabanı kurulumunu gerçekleştirmek için kullanacağınız "Setup" sayfası.
 </p>
 
 ## Version
