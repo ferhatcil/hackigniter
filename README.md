@@ -81,7 +81,7 @@ Değişkenler aşağıdaki şekilde ayarlanmıştır:
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => '',
+	'database' => json_decode(file_get_contents(FCPATH . 'db.json'))->name,
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
