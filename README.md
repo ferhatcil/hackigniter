@@ -70,7 +70,7 @@ http://localhost/<proje-adi>
 ```
 
 ### Veritabanı Kurulumu
-Veritabanını kurmak için; **application/config/database.php** dosyanıza veritabanı bilgilerinizi girdikten sonra **http://localhost/<proje-adi>/Setup** veya **http://localhost/Setup** sayfasını ziyaret edin, ardından **"Yükle"** butonuna tıklayın. Bu sayfa, gerekli olan veritabanını ve tablolarını sizin için otamatik bir şekilde oluşturacaktır.
+Veritabanını kurmak için; **`application/config/database.php`** dosyanıza veritabanı bilgilerinizi girdikten sonra **`http://localhost/<proje-adi>/Setup`** veya **`http://localhost/Setup`** sayfasını ziyaret edin, ardından **"Yükle"** butonuna tıklayın. Bu sayfa, gerekli olan veritabanını ve tablolarını sizin için otamatik bir şekilde oluşturacaktır.
 
 HackIgniter üzerinde oturum açamadığınız durumda */application/config/database.php* dosyasının içerisinde yer alan veritabanı kullanıcı bilgilerinizin doğru olduğundan emin olun.
 
