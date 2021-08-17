@@ -16,6 +16,13 @@
         </div>
         <div class="col-sm-6 col-lg-4">
             <div class="card card-sm">
+                <a href="<?php echo base_url("Vulnerabilities/Sqli_OrderBy") ?>" class="d-block"><img
+                            src="<?php echo base_url("assets/img"); ?>/cyberdetails/10.png"
+                            class="card-img-top"></a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="card card-sm">
                 <a href="<?php echo base_url("Vulnerabilities/ssrf"); ?>" class="d-block"><img
                             src="<?php echo base_url("assets/img"); ?>/cyberdetails/8.png"
                             class="card-img-top"></a>

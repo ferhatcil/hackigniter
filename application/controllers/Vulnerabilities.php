@@ -676,5 +676,22 @@ class Vulnerabilities extends CI_Controller
         redirect(base_url("Vulnerabilities/missingFunction"));
     }
 
+    public function Sqli_OrderBy()
+    {
+        $viewData = new stdClass();
+        $viewData->viewFolder = $this->viewFolder;
+        $viewData->subViewFolder = "Sqli_OrderBy";
+
+        if ($this->input->post()) {
+            $value = $this->input->post()["name"];
+            $viewData->posts = $this->VulnerabilitiesModel->Sqli_OrderBySelectQuery($value);
+            $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
+        } else {
+            $viewData->posts = $this->VulnerabilitiesModel->Sqli_OrderBySelectQuery("id");
+            $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
+        }
+
+    }
+
 
 }

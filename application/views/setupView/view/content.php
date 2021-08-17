@@ -202,7 +202,7 @@
                             All rights reserved.
                         </li>
                         <li class="list-inline-item">
-                            <a href="" class="link-secondary" rel="noopener">HackIgniter v0.0-pilot.3 - Vulnerable Web
+                            <a href="" class="link-secondary" rel="noopener">HackIgniter v0.0-pilot.5 - Vulnerable Web
                                 Application</a>
                         </li>
                     </ul>

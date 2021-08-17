@@ -75,6 +75,9 @@
                         <a class="dropdown-item" href="<?php echo base_url("Vulnerabilities/timeBasedSqli") ?>">
                             Time Based SQL Injection
                         </a>
+                        <a class="dropdown-item" href="<?php echo base_url("Vulnerabilities/Sqli_OrderBy") ?>">
+                            SQL Injection(OrderBy)
+                        </a>
                         <a class="dropdown-item" href="<?php echo base_url("Vulnerabilities/idor") ?>">
                             IDOR
                         </a>

@@ -5,7 +5,7 @@
     <?php echo $error; ?>
     <form class="card card-md" action="<?php echo base_url("Login/Check") ?>" method="POST" autocomplete="off">
         <div class="card-body">
-            <h2 class="card-title text-center mb-4">v0.0-pilot.3</h2>
+            <h2 class="card-title text-center mb-4">v0.0-pilot.5</h2>
             <div class="mb-3">
                 <label class="form-label">Kullanıcı Adı</label>
                 <input name="username" type="text" class="form-control">

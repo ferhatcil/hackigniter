@@ -40,6 +40,7 @@ class Setup extends CI_Controller
                 $this->SetupModel->hi_xss_0();
                 $this->SetupModel->hi_xss_1();
                 $this->SetupModel->hi_xss_2();
+                $this->SetupModel->hi_sqli_0();
 
                 $data = array("name" => "hackigniter");
                 file_put_contents(FCPATH . "\db.json", json_encode($data));

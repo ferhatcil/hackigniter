@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 16 Tem 2021, 23:52:15
+-- Üretim Zamanı: 17 Ağu 2021, 19:49:02
 -- Sunucu sürümü: 10.4.18-MariaDB
 -- PHP Sürümü: 8.0.3
 
@@ -39,8 +39,7 @@ CREATE TABLE `hi_0` (
 --
 
 INSERT INTO `hi_0` (`id`, `username`, `password`, `loginStatus`) VALUES
-(1, 'susamam3513', 'o2cnd3q50psp', '0'),
-(2, 'flag', '39d3ffa1-45a0-4c61-981b-348fe3cbd259', '0');
+(1, 'susamam3513', 'o2cnd3q50psp', '0');
 
 -- --------------------------------------------------------
 
@@ -197,6 +196,44 @@ INSERT INTO `hi_missingfunction_0` (`id`, `username`, `password`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Tablo için tablo yapısı `hi_sqli_0`
+--
+
+CREATE TABLE `hi_sqli_0` (
+  `id` int(11) NOT NULL,
+  `text` varchar(1000) NOT NULL,
+  `author` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Tablo döküm verisi `hi_sqli_0`
+--
+
+INSERT INTO `hi_sqli_0` (`id`, `text`, `author`) VALUES
+(1, 'Sağı solu belli olmayan Mangala gitti maganda! Orman yanar Tabiatın gözleri kan ağlar', 'Fuat'),
+(2, 'Abi yapma! Atma şu izmaritini denize Geri alamazsın Gün gelir o pisliğini attığın denize hasret kalırsın, bakamazsın!', 'Ados'),
+(3, 'Fakirin vergisiyle yatına, katına katana salak Haşere geri yolsuz vekil seni, senin eserin! Şimdi kapını kollaması gereken adalet gelir acımaz\r\n\r\nVurur kırar kapını\r\n\r\nÇünkü çocuk öldü vuran memurdu diye \"Haklıdır\" dedin\r\n\r\nSesini çıkarmadın, yani suçlusun!', 'Şanışer'),
+(4, 'Medya, basın, hukuk, asker hepsi sizin için çalışırken Aslen güneş bile üzerine doğuyo bu çocukların İşe gidip geliyolar canlarına kasten Silahınızı kin! Bu çektiğimiz bizim günahımız değil Planınız iyi! Ben bilmem bunun inananı kim? Ama bilirim, gel Silahımız dil!', 'Hayki'),
+(5, 'Müzik yapmak dışında bi\' bok yemedim! Polis bi\' şeyleri problem edip Yine duruşmadayım sen konsere git Ben aynı takım elbisemle 10 senedir Biri dönüp desin bana \"Çaban boş yere değil\" O gün kalbimi, ruhumu komple veriyim ama Yargı gelip arıyor bedeli Yaşıyorum cehennemi, yanıyor bedenim', 'Server Uraz'),
+(6, 'Merhaba Türkiye Bende var hüviyet Yaşamaya çalışıyoruz hasbelkader gitmeden katakulliye Ekrana süs diye çıkan şarlatan, hep fanatik biri! Fesatlık, kötü niyet salgın gibi Eder daha manipüle! Bu bir temsil ya da piyes! Bu uçaksa bu türbülans! Komşumuzdu Suriye Şimdi bu gemideki vatandaş mı? (Yurttaş mı?) Huzurda değil ölü bile topraktakilerin ahı var Sadece gazeteydi \"Hürriyet\" Sen olabildiğince özgür ol!', 'Beta'),
+(7, 'Beton ormanda hayvan olman normal Tutsak göz altların yine morlar Yönetenler çağ dışı dinozorlar Bu ormanda herkese göre rol var Sustukça sıra sana gelecek Aydın beyinleri bekliyor karanlık gelecek', 'Asil Slang & Zen-G'),
+(8, 'Sokak başı üniversite ama köy okulları çok terste Başa gelenin ideolojisi neyse o anlatılır her derste Zengin, fakir ayrı Torpile ya da parasına göre kayırır Eğitim endüstridir İnşaattan rant sağlamaka aynı! Kiminin kitap alıcak bi\' parası yok Öğretmen atanıcak ama \"arası\" yok! Milletvekili bi\' tanıdık mı, wow Beni anlaman da bu mantıkla zor Bari bi\' köy okulunun yardımına koş Her tarafı kaos Sen de biraz boğuş Bu gece uyudu zorla çocuk Okula gidecek YOL YAP!', 'Sokrat St'),
+(9, 'Anlamak mı yasak olabilir Ama sadece bi\' yanıtı yok bi\' sürü cevap var koş git yanıt ara Peşine düş mutlaka kanıt ara Ruhunu demle hep yakıt ara lan Kalbini tut ve de buna tanık ara Hadi nefesini gör ve git sanat ara Sorgula sorgula atomları Işık hızını düşün ve de git kanat ara sonra Uç uçabildiğin kadar', 'Ozbi'),
+(10, 'Ben bilmem hiç kendimi korumak zorunda kalmadım Bilmem ben bi\' çocuğu düşünmek zorunda olmadım Hiç evlendirilmedim Evde dayak görmedim Kendi evimde kendi odama zorla hapsedilmedim Sözlerinizi kusmadım Yurdumdan edilmedim Nefretinizle yanmadım Yakılarak can vermedim Hiç kardeşim olmadı Hiç abimden korkmadım Okuldan alınmadım Ben hiç öldürülmedim', 'Deniz Tekin'),
+(11, 'Ülkede erkek neden en üstte minibüste, evde ya da metrobüste Taciz şiddeti hiç bitmiyo\' Kınamakla falan iş bitmiyo\' Uh, Ah, adam olamadınız bu kalıbının adamı mı para babalarınız? Beşiktaş\'ta beş tokat, leş hareketler Cebi dolu ciğerin beş para etmez Yaşadığın kafa ne? İnsan mısın? Biz utandık ulan! İnsan mısın? İnsan mısın? Bu hale nasıl gelir insan? Nasıl?', 'Yeis Sensura & Sehabe'),
+(12, 'Düşerim derinlere Dünya, dönsün başım gibi Aklımı kaybederek rüya Nefesim, iç sesim Düşerim derinlere Dünya, dönsün başım gibi Aklımı kaybederek rüya Nefesim, iç sesim Düşerim derinlere', 'Aspova'),
+(13, 'Bak Almanya buz gibi morg Bana sor sana diyim Gençlerin çoğunda amfetamin, tilidin ya da weed, kokain ya da speed, crack Sana göre güzel ama bana göre değil Bana göre değil, kafana göre yürü bas mayına geber Ederi kaç? Kaç? Kaç? Kaç paraya bedel? Yeter artık dönme teker gibi Dost ol yeter bana Geliyorsan dosdoğru gel', 'Defkhan'),
+(14, 'Bi\' kap su ver çok mu zor Vicdanlı ol be lanet Anlamak istemiyosun ama bütün bu canlar sana bana emanet Lan bi\' düşün: \"Soğukta kışta dışarda tek başına yaşıyosun Dilini anlayan kimse yok hep tehlike, hep felaket, hep afet\" Ademe bir türlü yaranamazlar Vicdana bakar paraya bakmaz Toplayıp ormana atmak çözüm değil Bunlar kurt değil, ormanda kendi başlarına yaşayamazlar Onları sen savun, onlar kendi haklarını arayamazlar Barınaklar dolu Memleket acı Seması kara Sokak hayvanlarına tecavüz etmenin, işkence etmenin cezası para \"Büyük ahlaksızlıklar için büyük aptallar lazımdır\" Bütün insanlar suçlu değildir ama Bütün hayvanlar masumdur', 'Şanışer'),
+(15, 'Gel, gül olur hapsolur bu suçlu cümleler! Yenilir hiç olurum fark etmezler! Susmam, susamam! Korkma yanıma gel! Gel, gül olur hapsolur bu suçlu cümleler! Yenilir hiç olurum fark etmezler! Susmam SUSAMAM!', 'Şanışer'),
+(16, 'Hiçbir şeyi yaşamak kadar sevme Sana bi dünya yaratamam da elini tutarım elbette Varsın herkes terk etsin seni Sen dünyayı terk etme Seni yargılamıyorum Acını tam olarak anlamam mümkün değil biliyorum Kaldıramadığım yükleri bırakıp kendi yolumdan gidiyorum ben Sen de aynaya bak lütfen \"Seni seviyorum\" de', 'Sokrat St'),
+(17, 'Ey! Faşizm ne mi? En amiyane deyimiyle faka basacağız Beynelmilel el birliğiyle Tek bildiğiniz siz Ve de pek çok kazanın asıl sebebi aşırı hırs Bu hırs bi\' ebedi his. Biz façası pis de eli temiz bir nesiliz Bu işin selesi siz de Tekeri gidonu biz Ey, e bi tabi biz de biz gibi bir nes\'lin peşindeyiz.', 'Aga B'),
+(18, 'Yüzüne bakamam yüzüm düşer o yerlere Ayakları çıplakken gözleri dalar düşlere Başı önünde ama beden çıkıyor sefere Yok mecal dizinde Bak, her bi\' günü sürgüne Kaçamıyo\' kovalıyo\' zalimler Ele güne, ele bakıyor o gözler Kodamanın parasını ateşe ver Ve de koyduğumun egosunu bi\' yere ser Sokağa bakanın adını değil Yoksulumun, yetimimin adını ver Zabıtaları seyyara değil Gökdelenlere gönder', 'Mirac'),
+(19, 'Fırtınadan kopup giden dalların bi\' tanesiyim Fazla yol almış ve yıpranmış İçimde neler dönüp durur anlatsam tarifi yok Bazen evsiz bi\' çocuğun hikayesiyim', 'Mert Şenel'),
+(20, 'Can pazarı, otobanlar can pazarı 365 günün riskli Bitmiyo\' gamsız magandası Öde kan parası Bi\' kaza bayrama matem düşürür Yürek dağlar acılar cabası Bir sela çınlar kulaklarında Hiç dinmez yarası Trafik terörüne eşlik eder alkol, şiddet, hız tutkusu 25 yaşında yüz binlik arabaya binen gençlerin yok korkusu Önce emniyet sonra hoşgörü Sabır, selamet gerekiyor insan Ufacık bir hata her şeyi karartır inan yok dönüşü', 'Kamufle');
+
+-- --------------------------------------------------------
+
+--
 -- Tablo için tablo yapısı `hi_users`
 --
 
@@ -338,6 +375,12 @@ ALTER TABLE `hi_missingfunction_0`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Tablo için indeksler `hi_sqli_0`
+--
+ALTER TABLE `hi_sqli_0`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Tablo için indeksler `hi_users`
 --
 ALTER TABLE `hi_users`
@@ -414,6 +457,12 @@ ALTER TABLE `hi_idor_1`
 --
 ALTER TABLE `hi_missingfunction_0`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- Tablo için AUTO_INCREMENT değeri `hi_sqli_0`
+--
+ALTER TABLE `hi_sqli_0`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `hi_users`
