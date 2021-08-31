@@ -36,6 +36,7 @@ HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik 
 ## Readme-(N).md
 Bu dosya birden çok dilde mevcuttur:
 - İngilizce : English
+
 Eğer çeviriye katkıda bulunmak istiyorsanız istek göndermekten korkmayın. 
 
 ## Test edildi
