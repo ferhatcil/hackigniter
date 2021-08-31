@@ -33,6 +33,11 @@ CodeIgniter, PHP ile dinamik uygulamalar geliştirmek için geliştirilmiş bir 
 
 HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik açıklıkları barındıran zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
 
+## Readme-(N).md
+Bu dosya birden çok dilde mevcuttur:
+- İngilizce : English
+Eğer çeviriye katkıda bulunmak istiyorsanız istek göndermekten korkmayın. 
+
 ## Test edildi
 
 * Windows 10
