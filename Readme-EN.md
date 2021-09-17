@@ -34,7 +34,7 @@ CodeIgniter is an open-source software rapid development web framework, for use 
 
 ## Summery Of HackIgniter
 
-Hack Igniter is web application which is builded with CodeIgniter library and includes web security vulnerabilities.Vulnerabilities in the application, it is prepared to be similar to the most detected vulnerabilities during penetration testing.
+HackIgniter is web application which is builded with CodeIgniter library and includes web security vulnerabilities.Vulnerabilities in the application, it is prepared to be similar to the most detected vulnerabilities during penetration testing.
 
 ## Readme-(N).md
 This file is available in multiple languages/Bu dosya birden çok dilde mevcuttur:
