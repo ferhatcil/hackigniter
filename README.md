@@ -31,7 +31,7 @@ CodeIgniter, PHP ile dinamik uygulamalar geliştirmek için geliştirilmiş bir 
 
 ## HackIgniter'ın kısa özeti
 
-HackIgniter, CodeIgniter kütüphanesi ile kodlanmış ve içerisinde güvenlik açıklıkları barındıran zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
+HackIgniter, CodeIgniter Framework'ü ile kodlanmış ve içerisinde güvenlik açıklıkları barındıran zafiyetli bir web uygulamasıdır. Uygulama üzerinde bulunan zafiyetler, sızma testi sırasında en çok tespit edilen zafiyetlere benzer olacak şekilde hazırlanmıştır. 
 
 ## Readme-(N).md
 Bu dosya birden çok dilde mevcuttur:
